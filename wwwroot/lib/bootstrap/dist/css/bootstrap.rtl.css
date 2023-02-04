@@ -649,9 +649,13 @@ progress {
   }
 }
 @media (min-width: 1400px) {
-  .container-xxl, .container-xl, .container-lg, .container-md, .container-sm, .container {
-    max-width: 1320px;
-  }
+    .container-xxl, .container-xl, .container-lg, .container-md, .container-sm, .container {
+        max-width: 803px;
+        height: 50%;
+        border: 1px solid;
+        margin-left: 334px;
+        border-radius: 14px;
+    }
 }
 .row {
   --bs-gutter-x: 1.5rem;
